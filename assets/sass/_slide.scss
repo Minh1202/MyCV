@@ -1,0 +1,41 @@
+.slick-prev {
+  position: absolute;
+  right: 35px;
+  bottom: -35px;
+}
+.slick-next {
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+}
+.slick-arrow {
+  background-color: $blue-primarry;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: -35px;
+  list-style-type: none;
+  gap: 0 10px;
+  button {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    border: none;
+    border-radius: 100%;
+    background-color: #333;
+    text-indent: -9999px;
+  }
+
+  li.slick-active button {
+    background-color: rgb(209, 12, 110);
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
